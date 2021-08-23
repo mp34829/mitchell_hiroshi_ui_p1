@@ -77,7 +77,7 @@ function RegisterComponent() {
 
         let status = 0;
 
-        fetch(`${env.apiUrl}/users`, {
+        fetch(`users`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
